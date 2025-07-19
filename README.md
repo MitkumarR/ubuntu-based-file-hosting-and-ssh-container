@@ -1,6 +1,6 @@
 # Ubuntu-based File Hosting and SSH Container
 
-I have built custom docker image. It's based on Ubuntu 22.04 running Apache and SSH. It is allowing file hosting and remote shell access using openSSH.
+I have built custom docker image on parrot os. It's based on Ubuntu 22.04 running Apache and SSH. It is allowing file hosting and remote shell access using openSSH.
 
 ### Features
 - Based on Ubuntu 22.04
@@ -10,6 +10,11 @@ I have built custom docker image. It's based on Ubuntu 22.04 running Apache and 
 
 ### Getting started
 Here, you have to follow some task to implement it.
+
+> Docker's debian repository don't have a codename ```lory```.
+> Debian repo of docker supports ```buster```, ```bullseye```, ```bookworm``` (debian versions).
+
+> codename for ubuntu 22.04: ```Noble Numbat```
 
 **1. Install docker engine on host OS**
 
