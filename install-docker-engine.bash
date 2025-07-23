@@ -15,7 +15,7 @@ sudo apt update -y
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
 # Add user to the Docker group
-sudo usermod -aG docker mice
+sudo usermod -aG docker USER
 echo '[!] You need to log out and log back in for the group changes to take effect.'
 
 # Test Docker installation
